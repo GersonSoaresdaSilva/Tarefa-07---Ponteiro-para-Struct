@@ -109,7 +109,7 @@ void listarCad  ()
     cout << "\n***  Lista de Funcionários  ***" << endl;
     for (int i = 0; i <= pos; i++)
     {
-      cout << "\npos [" << i << "]" << " Nome.: " << ptrCad -> nome [i] << " Idade.: " << ptrCad -> idade [i] << " Sexo.: " << ptrCad -> sexo [i] << " Salário.: " << ptrCad -> sal [i] << " Novo salário.: " << ptrCad -> nsal [i] << endl;
+      cout << "\n[" << i << "]" << " Nome.: " << ptrCad -> nome [i] << " Idade.: " << ptrCad -> idade [i] << " Sexo.: " << ptrCad -> sexo [i] << " Salário.: " << ptrCad -> sal [i] << " Novo salário.: " << ptrCad -> nsal [i] << endl;
     }
   }
 system ("sleep 4");
